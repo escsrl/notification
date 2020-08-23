@@ -42,6 +42,16 @@ class NotificationService
      * @param string $message
      * @throws ExceptionInterface
      */
+    public function running(int $id, string $message = ''): void
+    {
+        $this->update($id, Notification::RUNNING_STATE, $message);
+    }
+
+    /**
+     * @param int $id
+     * @param string $message
+     * @throws ExceptionInterface
+     */
     public function success(int $id, string $message = ''): void
     {
         $this->update($id, Notification::SUCCESS_STATE, $message);
