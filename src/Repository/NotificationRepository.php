@@ -5,9 +5,7 @@ namespace Esc\Notification\Repository;
 use Esc\Notification\Entity\Notification;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Collections\Criteria;
-use Doctrine\Common\Persistence\ManagerRegistry;
-use Doctrine\ORM\Query\QueryException;
-use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
+use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Component\Security\Core\Security;
 use Esc\Repository\Repository as EscRepository;
 
@@ -27,7 +25,7 @@ class NotificationRepository extends EscRepository
         $this->security = $security;
     }
 
-    private function getFiltersCriteria(array $filters): Criteria
+    public function getFiltersCriteria(array $filters): Criteria
     {
         $filtersBag = $this->prepareFiltersCriteria($filters);
 
