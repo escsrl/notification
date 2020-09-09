@@ -38,5 +38,6 @@
     "require-dev": {},
     "config": {
         "sort-packages": true
-    }
+    },
+    "version": "2.0.0"
 }
