@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/escsrl/notification/compare/v2.0.0...v2.1.0) (2020-09-15)
+
+
+### Features
+
+* Aumentato dimensioni campo subTitle ([7bd2e1d](https://github.com/escsrl/notification/commit/7bd2e1dfcd72f0df153263f3708c01f7673056b8))
+
 ## [2.0.0](https://github.com/escsrl/notification/compare/v1.0.0...v2.0.0) (2020-09-09)
 
 
