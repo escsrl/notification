@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/escsrl/notification/compare/v3.0.0...v3.0.1) (2020-12-09)
+
+
+### Bug Fixes
+
+* typo version ([4e4e0a5](https://github.com/escsrl/notification/commit/4e4e0a5373f15ab3614b16b329d3e6ca5b68d095))
+* typo version ([3dfa35c](https://github.com/escsrl/notification/commit/3dfa35cb506684c585f20f40eb2eca793c642643))
+
 ## [3.0.0](https://github.com/escsrl/notification/compare/v2.1.0...v3.0.0) (2020-12-09)
 
 
